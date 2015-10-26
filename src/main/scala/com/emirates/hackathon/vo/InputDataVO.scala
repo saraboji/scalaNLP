@@ -1,6 +1,7 @@
 package com.emirates.hackathon.vo
 
-class InputDataVO(message: String, parsedMessage: Array[String], parsedNERs: Array[String]) {
+class InputDataVO(val message: String, val tokens: Option[List[String]], val namedEntities: Option[List[String]],
+    val posTags: Option[List[String]], val normalizedEntities: Option[List[String]]) {
   
   var isFlightStatus: Boolean = false;
   var isFlightSearch: Boolean = false;

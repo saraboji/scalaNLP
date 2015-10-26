@@ -12,9 +12,9 @@ public class Launcher {
 
 	}
 	public static void rules(InputDataVO inputDataVO) {
-		System.out.println(inputDataVO.rawText);
+		//System.out.println(inputDataVO.rawText);
 		
-		inputDataVO.rawText = "modified";
+		//inputDataVO.rawText = "modified";
         Scanner scanner = new Scanner(System.in);
         System.out.println("Are you a friend of duke?[yes/no]:");
         String input = scanner.nextLine();

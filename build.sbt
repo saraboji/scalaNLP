@@ -8,7 +8,7 @@ libraryDependencies ++= Seq(
     "org.clulab" %% "processors" % "5.7.0",
     "org.clulab" %% "processors" % "5.7.0" classifier "models",
 	"org.easyrules" % "easyrules-core" % "2.1.0",
-	"com.googlecode.hammurabi" % "hammurabi_2.8.1" % "0.1" from "http://hammurabi.googlecode.com/svn/repo/releases/com/googlecode/hammurabi/hammurabi_2.8.1/0.1/hammurabi_2.8.1-0.1.jar"
+	"net.liftweb" %% "lift-json" % "2.6+"
 )
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="default" module="scalanlp_2.11" revision="1.0.0" status="release" publication="20151026180359">
+	<info organisation="default" module="scalanlp_2.11" revision="1.0.0" status="release" publication="20151026200626">
 		<description>
 		scalaNLP
 		</description>
@@ -34,8 +34,6 @@
 			<artifact name="processors_2.11" type="jar" ext="jar" conf="*" e:classifier="models"/>
 		</dependency>
 		<dependency org="org.easyrules" name="easyrules-core" rev="2.1.0" conf="compile->default(compile)"/>
-		<dependency org="com.googlecode.hammurabi" name="hammurabi_2.8.1" rev="0.1" conf="compile->default(compile)">
-			<artifact name="hammurabi_2.8.1" type="jar" ext="jar" conf="*"/>
-		</dependency>
+		<dependency org="net.liftweb" name="lift-json_2.11" rev="2.6.2" revConstraint="2.6+" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

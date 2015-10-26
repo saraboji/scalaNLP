@@ -1,13 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/scala-2.11/classes" path="src/main/scala-2.11"/>
-	<classpathentry kind="src" output="target/scala-2.11/classes" path="src/main/scala"/>
-	<classpathentry kind="src" output="target/scala-2.11/classes" path="src/main/java"/>
-	<classpathentry kind="src" output="target/scala-2.11/test-classes" path="src/test/scala-2.11"/>
-	<classpathentry kind="src" output="target/scala-2.11/test-classes" path="src/test/scala"/>
-	<classpathentry kind="src" output="target/scala-2.11/test-classes" path="src/test/java"/>
-	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
-	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=sampleproject&amp;ivyXmlPath=file%3A%2FD%3A%2Fscala%2Fprojects%2Fsample%2Ftarget%2Fscala-2.11%2Fivy-1.0.0.xml&amp;confs=*"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_60"/>
-	<classpathentry kind="output" path="bin"/>
+  <classpathentry output="target\scala-2.11\classes" kind="src" path="src\main\scala-2.11"/>
+  <classpathentry output="target\scala-2.11\classes" kind="src" path="src\main\scala"/>
+  <classpathentry output="target\scala-2.11\classes" kind="src" path="src\main\java"/>
+  <classpathentry output="target\scala-2.11\test-classes" kind="src" path="src\test\scala-2.11"/>
+  <classpathentry output="target\scala-2.11\test-classes" kind="src" path="src\test\scala"/>
+  <classpathentry output="target\scala-2.11\test-classes" kind="src" path="src\test\java"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\org.clulab\processors_2.11\jars\processors_2.11-5.7.0-models.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\org.clulab\processors_2.11\jars\processors_2.11-5.7.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.3.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\com.io7m.xom\xom\jars\xom-1.2.10.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.3.03.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.8.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\xalan\xalan\jars\xalan-2.7.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.2.11.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.2.11.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.2.11.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.6.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\org.scala-lang\scalap\jars\scalap-2.11.0.jar"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_COMPILER_CONTAINER"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.7.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\de.jollyday\jollyday\jars\jollyday-0.4.7.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\javax.xml.bind\jaxb-api\jars\jaxb-api-2.2.7.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\com.googlecode.efficient-java-matrix-library\ejml\jars\ejml-0.23.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\edu.stanford.nlp\stanford-corenlp\jars\stanford-corenlp-3.5.1-models.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\edu.stanford.nlp\stanford-corenlp\jars\stanford-corenlp-3.5.1.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\javax.json\javax.json-api\bundles\javax.json-api-1.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.0.10.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.0.10.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.10.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\log4j\log4j\bundles\log4j-1.2.17.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\nz.ac.waikato.cms.weka\weka-dev\jars\weka-dev-3.7.10.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\net.sf.squirrel-sql.thirdparty-non-maven\java-cup\jars\java-cup-0.11a.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\org.pentaho.pentaho-commons\pentaho-package-manager\jars\pentaho-package-manager-1.0.8.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\net.sf.jopt-simple\jopt-simple\jars\jopt-simple-4.5.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\de.bwaldvogel\liblinear\jars\liblinear-1.94.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\tw.edu.ntu.csie\libsvm\jars\libsvm-3.17.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.14.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\jline\jline\jars\jline-2.12.1.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\org.easyrules\easyrules-core\jars\easyrules-core-2.1.0.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Saraboji\.ivy2\cache\com.googlecode.hammurabi\hammurabi_2.8.1\jars\hammurabi_2.8.1-0.1.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
 </classpath>

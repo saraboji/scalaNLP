@@ -1,26 +1,26 @@
-[0m[[0minfo[0m] [0mUpdating {file:/D:/scala/projects/sample/}sample...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: sampleproject#sampleproject_2.11;1.0.0[0m
+[0m[[0minfo[0m] [0mUpdating {file:/D:/scala/projects/NLP/scalaNLP/}scalanlp...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#scalanlp_2.11;1.0.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@742a408d[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f57cf89[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.clulab#processors_2.11;5.7.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36fb9d48[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75ae72cc[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.clulab#processors_2.11;5.7.0[0m
 [0m[[0mdebug[0m] [0m	found org.clulab#processors_2.11;5.7.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -412,36 +412,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.yaml#snakeyaml;1.14 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->jline#jline;2.12.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->jline#jline;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.easyrules#easyrules-core;2.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.easyrules#easyrules-core;2.1.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.easyrules#easyrules-core;2.1.0[0m
 [0m[[0mdebug[0m] [0m	found org.easyrules#easyrules-core;2.1.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->com.googlecode.hammurabi#hammurabi_2.8.1;0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->com.googlecode.hammurabi#hammurabi_2.8.1;0.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.googlecode.hammurabi#hammurabi_2.8.1;0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.googlecode.hammurabi#hammurabi_2.8.1;0.1 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving com.googlecode.hammurabi#hammurabi_2.8.1;0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.googlecode.hammurabi#hammurabi_2.8.1;0.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\Saraboji\.ivy2\local\com.googlecode.hammurabi\hammurabi_2.8.1\0.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\Saraboji\.ivy2\local\com.googlecode.hammurabi\hammurabi_2.8.1\0.1\jars\hammurabi_2.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	using url for com.googlecode.hammurabi#hammurabi_2.8.1;0.1!hammurabi_2.8.1.jar: http://hammurabi.googlecode.com/svn/repo/releases/com/googlecode/hammurabi/hammurabi_2.8.1/0.1/hammurabi_2.8.1-0.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://hammurabi.googlecode.com/svn/repo/releases/com/googlecode/hammurabi/hammurabi_2.8.1/0.1/hammurabi_2.8.1-0.1.jar[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.googlecode.hammurabi#hammurabi_2.8.1;0.1: using default data[0m
-[0m[[0mdebug[0m] [0m	found com.googlecode.hammurabi#hammurabi_2.8.1;0.1 in local[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.googlecode.hammurabi#hammurabi_2.8.1;0.1[0m
+[0m[[0mdebug[0m] [0m	found com.googlecode.hammurabi#hammurabi_2.8.1;0.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -678,23 +672,23 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.yaml#snakeyaml;1.14 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->jline#jline;2.12.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->jline#jline;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->com.googlecode.hammurabi#hammurabi_2.8.1;0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->com.googlecode.hammurabi#hammurabi_2.8.1;0.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -931,26 +925,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.yaml#snakeyaml;1.14 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->jline#jline;2.12.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->jline#jline;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->com.googlecode.hammurabi#hammurabi_2.8.1;0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->com.googlecode.hammurabi#hammurabi_2.8.1;0.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -1187,25 +1181,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.yaml#snakeyaml;1.14 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->jline#jline;2.12.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->jline#jline;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->com.googlecode.hammurabi#hammurabi_2.8.1;0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->com.googlecode.hammurabi#hammurabi_2.8.1;0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -1442,25 +1436,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.yaml#snakeyaml;1.14 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->jline#jline;2.12.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->jline#jline;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->com.googlecode.hammurabi#hammurabi_2.8.1;0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->com.googlecode.hammurabi#hammurabi_2.8.1;0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -1697,31 +1691,31 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->org.yaml#snakeyaml;1.14 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->jline#jline;2.12.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.clulab#processors_2.11;5.7.0->jline#jline;2.12.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->com.googlecode.hammurabi#hammurabi_2.8.1;0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.clulab#processors_2.11;5.7.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.easyrules#easyrules-core;2.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->com.googlecode.hammurabi#hammurabi_2.8.1;0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for sampleproject#sampleproject_2.11;1.0.0 [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalanlp_2.11;1.0.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default][0m
@@ -1780,26 +1774,23 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies sampleproject#sampleproject_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalanlp_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1->...[0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.clulab#processors_2.11;5.7.0!processors_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.clulab#processors_2.11;5.7.0!processors_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.easyrules#easyrules-core;2.1.0!easyrules-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\Saraboji\.ivy2\local\com.googlecode.hammurabi\hammurabi_2.8.1\0.1\jars\hammurabi_2.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	using url for com.googlecode.hammurabi#hammurabi_2.8.1;0.1!hammurabi_2.8.1.jar: http://hammurabi.googlecode.com/svn/repo/releases/com/googlecode/hammurabi/hammurabi_2.8.1/0.1/hammurabi_2.8.1-0.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://hammurabi.googlecode.com/svn/repo/releases/com/googlecode/hammurabi/hammurabi_2.8.1/0.1/hammurabi_2.8.1-0.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://hammurabi.googlecode.com/svn/repo/releases/com/googlecode/hammurabi/hammurabi_2.8.1/0.1/hammurabi_2.8.1-0.1.jar ...[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.googlecode.hammurabi#hammurabi_2.8.1;0.1!hammurabi_2.8.1.jar (928ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.googlecode.hammurabi#hammurabi_2.8.1;0.1!hammurabi_2.8.1.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.io7m.xom#xom;1.2.10!xom.jar[0m
@@ -1836,19 +1827,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1557ms :: artifacts dl 1020ms[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 compile produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 runtime produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 test produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 provided produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 optional produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 compile-internal produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 runtime-internal produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 test-internal produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 plugin produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 sources produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 docs produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 pom produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for sampleproject#sampleproject_2.11;1.0.0 scala-tool produced in D:\scala\projects\sample\target\resolution-cache\reports\sampleproject-sampleproject_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1557ms resolve - 1020ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1176ms :: artifacts dl 84ms[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 compile produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 runtime produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 test produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 provided produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 optional produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 compile-internal produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 runtime-internal produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 test-internal produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 plugin produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 sources produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 docs produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 pom produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalanlp_2.11;1.0.0 scala-tool produced in D:\scala\projects\NLP\scalaNLP\target\resolution-cache\reports\default-scalanlp_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1176ms resolve - 84ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

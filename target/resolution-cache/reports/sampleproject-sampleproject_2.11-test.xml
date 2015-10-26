@@ -7,14 +7,14 @@
 		revision="1.0.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20151025204853"/>
+		date="20151026180007"/>
 	<dependencies>
 		<module organisation="com.googlecode.hammurabi" name="hammurabi_2.8.1">
-			<revision name="0.1" status="release" pubdate="20151025204854" resolver="local" artresolver="local" downloaded="false" searched="true" default="true" conf="default, default(compile)" position="34">
-				<metadata-artifact status="no" details="" size="0" time="0" location="C:\Users\Saraboji\.ivy2\cache\com.googlecode.hammurabi\hammurabi_2.8.1\ivy-0.1.xml" searched="true"/>
+			<revision name="0.1" status="release" pubdate="20151025204854" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="true" conf="default, default(compile)" position="34">
+				<metadata-artifact status="no" details="" size="446" time="0" location="C:\Users\Saraboji\.ivy2\cache\com.googlecode.hammurabi\hammurabi_2.8.1\ivy-0.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
 				<caller organisation="sampleproject" name="sampleproject_2.11" conf="test, compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.0.0"/>
 				<artifacts>
-					<artifact name="hammurabi_2.8.1" type="jar" ext="jar" status="successful" details="" size="100937" time="928" location="C:\Users\Saraboji\.ivy2\cache\com.googlecode.hammurabi\hammurabi_2.8.1\jars\hammurabi_2.8.1-0.1.jar">
+					<artifact name="hammurabi_2.8.1" type="jar" ext="jar" status="no" details="" size="100937" time="0" location="C:\Users\Saraboji\.ivy2\cache\com.googlecode.hammurabi\hammurabi_2.8.1\jars\hammurabi_2.8.1-0.1.jar">
 						<origin-location is-local="false" location="http://hammurabi.googlecode.com/svn/repo/releases/com/googlecode/hammurabi/hammurabi_2.8.1/0.1/hammurabi_2.8.1-0.1.jar"/>
 					</artifact>
 				</artifacts>

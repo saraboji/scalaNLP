@@ -3,8 +3,6 @@ import java.util.Scanner;
 
 import org.easyrules.api.RulesEngine;
 
-import com.emirates.hackathon.vo.InputDataVO;
-
 import static org.easyrules.core.RulesEngineBuilder.aNewRulesEngine;
 
 public class Launcher {

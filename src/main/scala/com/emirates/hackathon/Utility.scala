@@ -2,8 +2,6 @@ package com.emirates.hackathon
 
 import scala.collection.mutable.MutableList
 
-
-
 import edu.arizona.sista.processors.Processor
 import edu.arizona.sista.processors.corenlp.CoreNLPProcessor
 import edu.arizona.sista.struct.DirectedGraphEdgeIterator
@@ -14,7 +12,7 @@ case class InputDataVO(val message: String, val tokens: Option[List[String]], va
     val posTags: Option[List[String]], val normalizedEntities: Option[List[String]])
 case class FlightStatus(val flightNumber: String)
 case class FlightSearch(val flightNumber: String, val origin: String, val destination: String, val deptDate: String, val arrivalDate: String)
-case class OutputDataVO(val isFlightStatus: Boolean, val isFlightSearch: Boolean)
+case class OutputDataVO(val isFlightStatus: Boolean, val isFlightSearch: Boolean, val flightStatus: Option[FlightStatus], val flightSearch: Option[FlightSearch])
 object Utility {
   // create the processor
     // any processor works here! Try FastNLPProcessor or BioNLPProcessor.
@@ -111,27 +109,40 @@ object Utility {
       (keywords.foldLeft(false)( _ || tokens.contains(_) ))
       keywords.exists(tokens.contains)
     }
-  def extractInput(rawText: String): InputDataVO = {
+  def extractInput(rawText: String): OutputDataVO = {
     val inputDAtaVO:  InputDataVO = Utility.convertRawTextToInputData(rawText);
     val flightStatusWords = List("flight", "flights", "status")
     val flightSearchWords = List("flight", "flights", "ticket", "book", "date", "return")
     
-    
+    var outputDataVO: OutputDataVO = null
+    var flightStatus: Option[FlightStatus] = null
+    var flightSearch: Option[FlightSearch] = null
+    var isFlightStatus: Boolean = false
+    var isFlightSearch: Boolean = false
     
     if (!inputDAtaVO.tokens.isEmpty) {
       if ((inputDAtaVO.tokens.size == 1 && inputDAtaVO.tokens.get(0).contains("ek")) || ( multiContains(inputDAtaVO.tokens.get, flightStatusWords)
-          && (inputDAtaVO.tokens.exists { x => if (x.contains("ek")) true else false }))) {
-      
+          && (inputDAtaVO.tokens.get.exists { x => if (x.contains("ek")) true else false }))) {
+        val flightNo = inputDAtaVO.tokens.get.find { x => x.contains("ek") }
+        flightStatus = Some(FlightStatus(flightNo.get))
+        isFlightStatus = true
+        
+       println("flight status.....................................");
       } else if (multiContains(inputDAtaVO.tokens.get, flightSearchWords)
-          && inputDAtaVO.namedEntities.contains("LOCATION") && inputDAtaVO.namedEntities.contains("DATE")) {
-        println("flight search");
+          && inputDAtaVO.namedEntities.get.contains("LOCATION") && inputDAtaVO.namedEntities.get.contains("DATE")) {
+        isFlightSearch = true
+        
+        /*for ( i <- inputDAtaVO.namedEntities.size) {
+          
+        }*/
+        println("flight search.....................................");
       }
     } else {
       
     }
     
-        
-    inputDAtaVO
+        outputDataVO = OutputDataVO(isFlightStatus, isFlightSearch, flightStatus, flightSearch)
+    outputDataVO
   }
   
   def main(args: Array[String]): Unit = {
@@ -142,6 +153,8 @@ object Utility {
     extractInput("flight to Bangkok on january 20")
     extractInput("flight to Bangkok on next Thursday")
     extractInput("flight to Bangkok on next Monday")
+    /*val tokens = List("show", "flight", "status", "ek200")
+    println(tokens.exists { x => if (x.contains("ek")) true else false })*/
   }
   
 }

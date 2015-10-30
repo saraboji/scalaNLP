@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="default" module="scalanlp_2.11" revision="1.0.0" status="release" publication="20151026200626">
+	<info organisation="default" module="scalanlp_2.11" revision="1.0.0" status="release" publication="20151030154435">
 		<description>
 		scalaNLP
 		</description>
@@ -35,5 +35,6 @@
 		</dependency>
 		<dependency org="org.easyrules" name="easyrules-core" rev="2.1.0" conf="compile->default(compile)"/>
 		<dependency org="net.liftweb" name="lift-json_2.11" rev="2.6.2" revConstraint="2.6+" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.3.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

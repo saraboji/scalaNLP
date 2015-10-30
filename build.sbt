@@ -10,7 +10,7 @@ libraryDependencies ++= Seq(
 	"org.easyrules" % "easyrules-core" % "2.1.0",
 	"net.liftweb" %% "lift-json" % "2.6+"
 )
-
+libraryDependencies += "com.typesafe.akka" % "akka-actor_2.11" % "2.3.2"
 
 
 resolvers ++= Seq(

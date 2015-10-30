@@ -4,7 +4,7 @@
 		module="scalanlp_2.11"
 		revision="1.0.0"
 		status="integration"
-		publication="20151026200438"
+		publication="20151030154340"
 	>
 		<description>
 		scalaNLP
@@ -40,5 +40,6 @@
 		</dependency>
 		<dependency org="org.easyrules" name="easyrules-core" rev="2.1.0" conf="compile->default(compile)"/>
 		<dependency org="net.liftweb" name="lift-json_2.11" rev="2.6+" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.3.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
